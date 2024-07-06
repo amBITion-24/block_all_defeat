@@ -307,6 +307,25 @@ const Details = ({
                 </ul>
               </div>
             </div>
+            <form
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                paddingTop: "2.5rem",
+              }}
+            >
+              <input type="text" name="donate-value" />
+              <button
+                style={{
+                  paddingLeft: "5rem",
+                  paddingRight: "5rem",
+                }}
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
           </div>
         </div>
         <p className="mt-16 align-items-center">
